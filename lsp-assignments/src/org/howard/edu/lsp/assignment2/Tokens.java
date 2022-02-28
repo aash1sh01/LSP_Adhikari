@@ -11,13 +11,13 @@ public class Tokens {
 		while (true) {
 			System.out.println("String?");
 			ArrayList<String> ar = new ArrayList<String>();  // empty array list to hold tokens
-			Boolean flag= false;
+			Boolean flag= false; // flag to check if any token in the input stream is equals to Goodbye
 			Scanner myScanner= new Scanner(System.in);
 			String str= myScanner.nextLine();
 			for(String i:str.split(" ")){
 				   ar.add(i);   //making an array list of all tokens and splitting with " " character
 				}
-			if (ar.get(0).equals("Goodbye")) { // terminate program when arraylist starts with goodbye
+			if (ar.get(0).equals("Goodbye")) { // terminate program when arrayList starts with goodbye
 				myScanner.close();
 				break;
 
@@ -32,6 +32,7 @@ public class Tokens {
 						flag= true;
 						break;
 					}
+					
 					System.out.println(ar.get(i));
 					total+= Integer.parseInt(ar.get(i));
 					prod*= Integer.parseInt(ar.get(i));
