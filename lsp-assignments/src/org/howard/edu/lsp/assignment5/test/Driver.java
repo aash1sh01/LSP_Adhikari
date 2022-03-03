@@ -21,7 +21,7 @@ public class Driver {
 	set1.add(1);
 	set1.add(2);
 	
-	//checks the add function representation of set1
+	//checks the add and to String function representation of set1
 	System.out.println("Value of Set1 is:"+ " " + set1.toString());
 	//returns smallest value of set1
 	System.out.println("Smallest value of Set1 is:"+ " " + set1.smallest());

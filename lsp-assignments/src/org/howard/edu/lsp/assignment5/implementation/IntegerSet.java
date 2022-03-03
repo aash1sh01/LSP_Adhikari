@@ -53,7 +53,7 @@ public class IntegerSet {
 	
 	/**
 	 * @param OtherSet of type IntegerSet
-     * @returns true if the 2 sets are equal, false otherwise;
+     * @return true if the 2 sets are equal, false otherwise;
      * Two sets are equal if they contain all of the same values in ANY order.
      */
 	public boolean equals(IntegerSet OtherSet) {
