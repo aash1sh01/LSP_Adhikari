@@ -46,6 +46,7 @@ public class IntegerSet {
 		return this.getSet().size();
 	}
 	
+	
 	/**
 	 * @param OtherSet of type IntegerSet
      * @returns true if the 2 sets are equal, false otherwise;
