@@ -3,12 +3,14 @@ package org.howard.edu.lsp.assignment5.implementation;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+/**
+ * @author aashishadhikari
+ * IntegerSet is an implementation of mathematical set like unordered list of numbers, we provide
+ * tools such as union, intersection and difference to add functionalities to the custom IntegerSet class
+ */
 public class IntegerSet {
-	/*
-	 * @author aashishadhikari
-	 * IntegerSet is an implementation of mathematical set like unordered list of numbers, we provide
-	 * tools such as union, intersection and difference to add functionalities to the custom IntegerSet class
-	 */
+	
 
 	private ArrayList<Integer> MySet = new ArrayList<>();
 	
@@ -44,8 +46,9 @@ public class IntegerSet {
 		return this.getSet().size();
 	}
 	
-	/**@param OtherSet of type IntegerSet
-     * Returns true if the 2 sets are equal, false otherwise;
+	/**
+	 * @param OtherSet of type IntegerSet
+     * @returns true if the 2 sets are equal, false otherwise;
      * Two sets are equal if they contain all of the same values in ANY order.
      */
 	public boolean equals(IntegerSet OtherSet) {
@@ -75,8 +78,8 @@ public class IntegerSet {
 	}
 	
 	/**
-	 * finds smallest element in the set
-	 * @return the smallest element in MySet
+	 * finds largest element in the set
+	 * @return the largest element in MySet
 	 * @throws IntegerSetException if the MySet is empty
 	 */
 	// Returns the largest item in the set; Throws a IntegerSetException if the set is empty 
@@ -89,6 +92,11 @@ public class IntegerSet {
 		
 	} 
 
+	/**
+	 * finds smallest element in the set
+	 * @return the smallest element in MySet
+	 * @throws IntegerSetException if the MySet is empty
+	 */
 	public int smallest() throws IntegerSetException {
 		
 
@@ -112,7 +120,7 @@ public class IntegerSet {
 	/**
 	 * Removes an item from the set if the set does not contain it
 	 * @param item value that is sent to be removed in the set
-	 * @throws IntegerSet exception if the set is empty
+	 * @throws IntegerSetexception if the set is empty
 	 */
 	
 	public void remove(int item) throws IntegerSetException {
