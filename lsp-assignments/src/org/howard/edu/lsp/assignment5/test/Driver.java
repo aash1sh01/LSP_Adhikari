@@ -6,7 +6,13 @@ import org.howard.edu.lsp.assignment5.implementation.IntegerSet;
  * @author Aashish Adhikari
  * Test file to test all the methods as well as Exception Handling
  */
+
 public class Driver {
+	
+	/**
+	 * Prints all the test cases with their outputs from IntegerSet and its method implementations
+	 *
+	 */
 	public static void main (String[] args) throws IntegerSetException {
 	IntegerSet set1 = new IntegerSet();
 	
