@@ -9,8 +9,12 @@ import java.util.Collections;
  * IntegerSet is an implementation of mathematical set like unordered list of numbers, we provide
  * tools such as union, intersection and difference to add functionalities to the custom IntegerSet class
  */
+
 public class IntegerSet {
-	
+	/**
+	 * Myset is the set that uses ArrayList to implement set like features
+	 *
+	 */
 
 	private ArrayList<Integer> MySet = new ArrayList<>();
 	

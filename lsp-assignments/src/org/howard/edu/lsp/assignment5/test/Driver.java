@@ -1,6 +1,11 @@
 package org.howard.edu.lsp.assignment5.test;
 import org.howard.edu.lsp.assignment5.implementation.IntegerSetException;
 import org.howard.edu.lsp.assignment5.implementation.IntegerSet;
+
+/**
+ * @author Aashish Adhikari
+ * Test file to test all the methods as well as Exception Handling
+ */
 public class Driver {
 	public static void main (String[] args) throws IntegerSetException {
 	IntegerSet set1 = new IntegerSet();
